@@ -4,7 +4,7 @@
     public class Products {
 
         static void setProductTypes(ProductTypes productType) {
-            throw new UnsupportedOperationException("Not supported yet.");
+
         }
 
         private BigDecimal price;
@@ -53,8 +53,6 @@
                     '}';
         }
 
-        ProductTypes getProductTypes() {
-            throw new UnsupportedOperationException("Not supported yet.");
-        }
+
     }
 

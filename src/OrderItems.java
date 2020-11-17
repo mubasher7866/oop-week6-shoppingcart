@@ -89,13 +89,6 @@ public class OrderItems {
 
 
 
-    Object getProducts() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-
-    void setProducts(Products product) {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
 }
 
 

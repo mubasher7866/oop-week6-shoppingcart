@@ -1,13 +1,13 @@
 
 
-import java.util.InputMismatchException;
+
 import java.util.Scanner;
 
 public class ShoppingCart {
 
 
     public static void main(String[] args) {
-        // TODO code application logic here
+
         Orders order = new Orders();
 
         while (true) {
@@ -32,13 +32,11 @@ public class ShoppingCart {
             if (actual.equals("A") || actual.equals("O")) {
                 while(true) {
                     try {
-                        System.out.println("Please enter the count, or CONTL-C to exit");
+                        System.out.println("Please enter the count, or CONTL- to exit");
                         count = scanner.nextInt();
                         break;
-                    } catch (InputMismatchException e) {
-                        System.out.println("Invalid input entered for count. Please try again");
-                    }
-                }
+
+
             }
 
             switch (actual) {

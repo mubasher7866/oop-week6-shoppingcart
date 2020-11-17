@@ -1,7 +1,6 @@
 
     import java.math.BigDecimal;
-import java.util.Collections;
-import java.util.HashSet;
+
 import java.util.Set;
 
     public class Orders {
@@ -26,17 +25,6 @@ import java.util.Set;
         }
 
         public void addOrderItem(OrderItems item) {
-            if (item == null) {
-                throw new IllegalArgumentException("Null OrderItem found");
-            }
-
-            if (item.getProducts() == null) {
-                throw new IllegalArgumentException("Null OrderItem product found");
-            }
-
-            if (item.getCount() < 0) {
-                throw new IllegalArgumentException("Invalid OrderItem count found");
-            }
 
             boolean found = false;
             for (OrderItems orderItem : orderItems) {
@@ -76,9 +64,6 @@ import java.util.Set;
                     "}\n";
         }
 
-        void addOrderItems(OrderItems orderItem) {
-            throw new UnsupportedOperationException("Not supported yet.");
-        }
     }
 
 
